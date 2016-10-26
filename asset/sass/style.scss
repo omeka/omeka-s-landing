@@ -1,0 +1,15 @@
+@import "base";
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(64,78,97,.7) }
+    90% { box-shadow: 0 0 0 5px rgba(64,78,97,0); }
+    100% { box-shadow: 0 0 0 0 rgba(64,78,97,0); }
+}
+
+@media screen {
+    @import "screen";
+}
+
+@media screen and (max-width:640px) {
+    @import "mobile";
+}

@@ -1,0 +1,62 @@
+header {
+    font-size: .75 * $base-font-size;
+}
+
+header h1 {
+    font-size: .875 * $base-font-size;
+}
+
+header nav li {
+    margin-left: $spacing-s;
+}
+
+#features {
+    flex-wrap: wrap;
+}
+
+#features .feature {
+    width: 45%;
+}
+
+#customize > div {
+    width: 100%;
+}
+
+#support ul {
+    flex-wrap: wrap;
+}
+
+#support li {
+    width: 100%;
+}
+
+#support li:not(:last-of-type) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: $spacing-m - 1px;
+    margin-bottom: $spacing-m;
+}
+
+#support li:not(:last-of-type):after {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 0 $spacing-l;
+    text-align: center;
+}
+
+.omeka-org {
+    font-size: .75 * $base-font-size;
+    display: flex;
+    margin-bottom: $spacing-l;
+}
+
+.omeka-org a:not(:last-child):after {
+    margin: 0 $spacing-s;
+}
+
+.social-media {
+    width: 100%;
+}
